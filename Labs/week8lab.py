@@ -23,11 +23,6 @@ boston_data.head()
 # look for any column that's not numeric
 boston_data.dtypes
 # if a column isn't numeric you have change it
-example_data = pd.DataFrame(['Yes','No','No','No'], columns = ['col1'])
-example_data
-what_i_want = [1,0,0,0]
-# write a function that replaces yes with 1 and no with 0
-example_data.col1 == 'Yes'
 # look for any missing values in any of the columns
 
 # step 3 : split data into training and testing
